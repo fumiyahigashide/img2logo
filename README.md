@@ -20,8 +20,3 @@
 
 このノートブックを実行するには、以下の依存関係が必要です。リポジトリのルートにある `environment.yml` と `dockerfile` を使用して、必要な環境をセットアップできます。
 
-```bash
-# 環境の構築
-conda env create -f environment.yml
-# Dockerイメージのビルド
-docker build -t img2logo .
